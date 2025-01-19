@@ -1,6 +1,6 @@
 # Projeto de Testes para Contratação de Seguros de Automóveis
 
-Este projeto faz parte da minha participação no **programa Academia Accenture 2025**. O foco é testar as funcionalidades essenciais do processo de contratação de seguros de automóveis, garantindo a qualidade e a confiabilidade das etapas críticas.
+Este projeto faz parte da minha participação no **programa Academia de QE Accenture 2025**. O foco é testar as funcionalidades essenciais do processo de contratação de seguros de automóveis, garantindo a qualidade e a confiabilidade das etapas críticas.
 
 ## Funcionalidades
 
