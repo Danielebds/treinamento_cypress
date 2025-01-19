@@ -16,15 +16,12 @@ Cypress.Commands.add("botao_enviar", () => {
   cy.get(BTN_SEND).click();
 });
 
-// Cypress.Commands.add('botao_validar', () => {
-//     cy.contains(BTN_VALIDAR).should('not.exist')
-//     cy.pause()
-// })
+
 
 Cypress.Commands.add("validarMensagemDeSucesso", () => {
-  cy.get(ALERT_MESSAGE, { timeout: 10000 })
+  cy.get(ALERT_MESSAGE, { timeout: 10000 }) //forcando o alert messsage a ter um novo tempo, pois o cypress tem o tempo fixo de quatro segundos
 
     .should("be.visible")
-    .and("contain", "Sending e-mail success!");
+    .and("contain", "Sending e-mail success!"); 
   cy.pause();
 });

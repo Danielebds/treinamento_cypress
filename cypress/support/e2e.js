@@ -23,10 +23,12 @@ import './pages/sendQuote'
 
 
 Cypress.on('uncaught:exception', (err, runnable) => {
-          // Retorna false para evitar que o Cypress falhe o teste
+          
           if (err.message.includes('e is not defined')) {
               return false
           }
       })
+      // Retorna false para evitar que o Cypress falhe o teste, da etapa final. devido ao erro que esta ocorrendo na plataforma de testes
+      //dica de uma colega de classe para evitar o erro
 
       
