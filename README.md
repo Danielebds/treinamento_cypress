@@ -23,6 +23,6 @@ Este repositório contém os arquivos necessários para executar os testes de fu
 1. Clone o repositório:
 
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   cd nome-do-repositorio]
+   cd nome-do-repositorio
    npm install
    npx cypress open
